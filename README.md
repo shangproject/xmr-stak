@@ -6,7 +6,9 @@ Only CPU miner algorithm updated right now.
 
 ## macOS compilation guide
  mkdir build && cd build
+ 
  cmake CMAKE_LINK_STATIC .. -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF
+ 
  make
 
 
