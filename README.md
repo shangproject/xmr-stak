@@ -5,7 +5,7 @@ Only CPU miner algorithm updated right now.
 
 Please choose shang as the crypto.
 
-- Cryptonight-shang 
+- Cryptonight-shang algorithm
 - 4 MiB scratchpad memory
 - 2x times iterations
 - MoneroV7 variant=1
