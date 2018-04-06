@@ -3,6 +3,13 @@
 
 Only CPU miner algorithm updated right now.
 
+Please choose shang as the crypto.
+
+- Cryptonight-shang 
+- 4 MiB scratchpad memory
+- 2x times iterations
+- MoneroV7 variant=1
+
 
 ## macOS compilation guide
  mkdir build && cd build
@@ -10,6 +17,8 @@ Only CPU miner algorithm updated right now.
  cmake CMAKE_LINK_STATIC .. -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF
  
  make
+
+
 
 
 
