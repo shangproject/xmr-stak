@@ -1,5 +1,9 @@
 # XMR-Stak - Shang - CPU Mining Software
 
+
+Only CPU miner algorithm updated right now.
+
+
 ## macOS compilation guide
  mkdir build && cd build
  cmake CMAKE_LINK_STATIC .. -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF
@@ -12,8 +16,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 ###### fireice-uk's and psychocrypt's
-# XMR-Stak - Monero/Aeon All-in-One Mining Software
+## XMR-Stak - Monero/Aeon All-in-One Mining Software
 
 **XMR-Stak is ready for the POW change of Monero-v7, Aeon-v7 and Sumukoin-v3**
 
