@@ -1,3 +1,17 @@
+# XMR-Stak - Shang - CPU Mining Software
+
+## macOS compilation guide
+ mkdir build && cd build
+ cmake CMAKE_LINK_STATIC .. -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF
+ make
+
+
+
+
+
+
+
+
 ###### fireice-uk's and psychocrypt's
 # XMR-Stak - Monero/Aeon All-in-One Mining Software
 
